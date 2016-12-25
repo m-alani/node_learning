@@ -22,4 +22,4 @@ function onRequest(request, response) {
 }
 
 http.createServer(onRequest).listen(8080);
-console.log('Server is running ...');
+console.log('Server is running on port 8080 ...');

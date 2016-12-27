@@ -8,6 +8,7 @@ function notFoundResponse(response) {
 }
 
 function onRequest(request, response) {
+    
     /*console.log('Responding to a user request: ' + request.url);
     response.writeHead(200, {"Context-Type": "text/plain"});
     response.write('Here\'s your response!');

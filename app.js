@@ -1,5 +1,5 @@
-var http = require("http");
-var fs = require("fs");
+const http = require("http");
+const fs = require("fs");
 
 function notFoundResponse(response) {
     response.writeHead(404, {"Context-Type": "text/plain"});

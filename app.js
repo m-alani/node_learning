@@ -5,7 +5,7 @@ const fs = require("fs");
 
 function notFoundResponse(response) {
     response.writeHead(404, {"Context-Type": "text/plain"});
-    response.write("404 : Couldn't find the file you are looking for");
+    response.write("404 : Ops, we can't find the file you're looking for.");
     response.end();
 }
 
